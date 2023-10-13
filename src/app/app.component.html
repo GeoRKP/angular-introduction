@@ -3,6 +3,15 @@
   Hello <strong>{{name}} {{lastname}}</strong> Nice to meet you!
 </p>
 
+<app-person></app-person>
+
 <app-person [person]="person"></app-person>
 
-<app-person [person]="person1"></app-person>
+<app-person-alt ></app-person-alt>
+
+<app-person *ngFor="let user of users" [person]="user"></app-person>
+
+<p>Details of all users</p>
+
+<app-person-alt *ngFor="let user of users" [person]="user"></app-person-alt>
+

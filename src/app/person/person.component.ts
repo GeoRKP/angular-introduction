@@ -16,6 +16,6 @@ export class PersonComponent {
     surName: 'Arxiki timi',
     age: 0,
     email: 'arxiki timi @yahoo.gr',
-    address: 'arxiki, timi'
+    address: 'arxiki, timi '
   }
 }
